@@ -18,8 +18,7 @@ public:
         }        
 
         long long num = stoll(x_str);
-        int numi = (int)num;
         if( num > INT_MAX || num < INT_MIN) return 0;
-        else return numi;
+        else return num;
     }
 };
